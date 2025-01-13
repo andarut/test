@@ -76,3 +76,22 @@ def bar(x):
 
 transformed_code = transform_code(test_code)
 print(transformed_code)
+
+'''
+def foo(a, b, c, d):
+    v0 = -a
+    v1 = a - b
+    v2 = c ** v1
+    v3 = v2 + d
+    v4 = baz(v0, v3, k=A + 123)
+    return v4
+
+def bar(x):
+    v0 = x * 2
+    v1 = sin(x)
+    v2 = v0 + v1
+    v3 = x + 1
+    a = v2
+    b = a
+    return (a, b, v3)
+'''
