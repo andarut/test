@@ -1,5 +1,3 @@
-#./.venv/bin/python3
-
 import ast
 
 class NestedFunctionEliminator(ast.NodeTransformer):
